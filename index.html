@@ -3,26 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Document</title>
+
 </head>
-<body>
+<body class="open-sans-normal">
+
+        <!-- nabver -->
     <header>
-        <div class="flex justify-between w-7xl px-[150px] m-[30px]">
-            <div>
-                            <img src="assets/logo.png" alt="">
-
-            </div>
-            <div class="flex">
-                            <li><a href="">Home</a></li>
-            <li><a href="">Shop</a></li>
-            <li><a href="">About us</a></li>
-            <li> <i class="fa-solid fa-cart-shopping"></i><a href=""> Cart($56)</a></li>
-
-            </div>
+        <div class="navbar">
+            <img src="assets/logo.png" alt="">
+            <ul class="nav-item">
+                <li><a href="" style="font-weight: bold;">Home</a></li>
+                <li><a href="" style="color: rgb(164, 161, 161);">Shop</a></li>
+                <li><a href="" style="color: rgb(164, 161, 161);">About us</a></li>
+                <li ><a href="" class="flex"><img  width="24px" src="assets/grocery-store.png" alt=""> Cart($65)</a></li>
+            </ul>
         </div>
     </header>
+
+    <!-- ALWAYS FRESH -->
+    <section>
+        <div class="always navbar">
+            <div style="width: 570px; height: 299px; margin-top: 160px;">
+                <h1 style="font-size: 50px; font-weight: bold;">ALWAYS <span style="color: #E95A08;">FRESH <br> FLOWERS</span></h1>
+                <p class="pr">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+            </div>
+            <div style="width: 570; height: 355px ;">
+                <img width="" src="assets/hero-flower.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Plants -->
+    <section class="">
+        <div>
+            <div class="our-plants">
+                <h1 style="font-weight: bold; font-size: 40px;"><span class="or" >Our</span> Plants</h1>
+                <p class="pr">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+            </div>
+            <section>
+                    <div class="w-80">
+                    <img src="assets/sample-flower-image.png" alt="">
+                    <p>Lily Blossom</p>
+                    <p style="font-weight: bold;">20 USD</p>
+                    <button class="adc">ADD TO CART</button>
+                </div>
+            </section>
+        </div>
+    </section>
+
 </body>
-</html> 
+</html>

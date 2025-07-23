@@ -1,0 +1,78 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* all */
+
+.pr{
+    color: rgb(164, 161, 161);
+}
+
+.or{
+    color: #E95A08;
+}
+/* navber */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
+    margin-top: 30px;
+    width: 0 1140px;
+}
+
+.nav-item{
+    display: flex;
+}
+
+.nav-item , li{
+    gap: 30px;
+    list-style: none;
+}
+
+.li,a{
+    text-decoration: none;
+}
+
+.li,a:hover{
+    background-color: rgb(232, 73, 15);
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+/* always fresh */
+
+.always{
+    display: flex;
+    margin-top: 5px;
+}
+
+/* our-plants */
+
+.our-plants{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .card{
+    text-align: center;
+} */
+
+.adc{
+    background-color: rgb(232, 73, 15) ;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    width: ;
+}
