@@ -33,6 +33,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+        padding-left:  50px;
+    padding-right: 70px;
 }
 
 .nav-list{
@@ -59,6 +61,8 @@
 .fresh{
     display: flex;
     margin-top: 60px;
+        padding-left:  50px;
+    padding-right: 70px;
 }
 
 .always{
@@ -81,12 +85,17 @@
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
+        padding-left:  50px;
+    padding-right: 70px;
+
 }
 
 /* flower-store */
 
 .flower-section{
     display: flex;
+        padding-left:  50px;
+    padding-right: 70px;
 }
 
 .flower-text{
@@ -125,6 +134,8 @@
 
 .latest-all{
     margin-top: 70px;
+    padding-left:  50px;
+    padding-right: 100px;
 }
 
 .latest-text{
@@ -168,8 +179,8 @@
 
 .latest-photo{
     display: flex;
-    justify-content: space-between;
     margin-top: 70px;
+    gap: 20px;
     /* gap: 28px; */
     /* max-width: fit-content; */
 }
@@ -177,6 +188,7 @@
 .jaw{
     border-radius: 14px;
     filter: brightness(70%);
+    width: 750px;
 }
 
 /* Join the colorful Bunch */
@@ -201,6 +213,32 @@
 
 }
 
+.footer{
+    display: flex;
+        gap: 10px;
+        /* margin-top: 100px; */
+        padding: 100px;
+        justify-content: space-between;
+}
+
+.ftli{
+    display: flex;
+    gap: 100px;
+}
+
+.fl{
+    margin-top: 20px;
+}
+
+.icons{
+        align-items: center;
+    justify-content: center;
+    
+}
+
+.icon{
+    padding-left: 20px;
+}
 
 
 
@@ -310,6 +348,20 @@
     }
     .jabo{
                 width: 476px;
+    }
+
+    .footer{
+                display: grid;
+        grid-template-columns: repeat(1,fr1);
+    }
+
+    .ftli{
+        display: grid;
+        grid-template-columns: repeat(1,fr1);
+    }
+
+    .icons{
+
     }
 
 
