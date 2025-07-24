@@ -61,8 +61,9 @@
 .fresh{
     display: flex;
     margin-top: 60px;
-        padding-left:  50px;
-    padding-right: 70px;
+    padding-left:  70px;
+    margin-right: 70px;
+    justify-content: space-between;
 }
 
 .always{
@@ -246,6 +247,8 @@
     .navber{
         padding:0 16px;
         width: 476px;
+                padding-left: 70px;
+
     }
 
     .nav-item{
@@ -260,18 +263,24 @@
     .always{
         font-size: 24px;
         margin-top: 28px;
-        padding-left: 16px;
     }
 
 .fp{
     font-size: 14px;
-    padding-left: 16px;
     width: 576px;
 
 }
 
     .fresh{
         flex-direction: column-reverse;
+                padding-left: 70px;
+
+    }
+
+    .ourp{
+        text-align: center;
+                padding-left: 70px;
+
     }
 
     .card-main{
@@ -279,7 +288,9 @@
         grid-template-columns: repeat(auto-fit ,minmax(160px,2fr));
         gap: 20px;
         height:0 auto;
-         width: 476px;
+        width: 476px;
+        padding-left: 70px;
+
     }
 
     .card, .btn{
@@ -294,6 +305,7 @@
         display: grid;
         margin-top: -140px;
         width: 476px;
+        padding-left: 70px;
     }
 
     .store{
