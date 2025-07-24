@@ -215,7 +215,7 @@
     }
 
     .flower img{
-        max-width: 576px;
+        width: 576px;
         margin-top: -20px;
     }
 
@@ -228,6 +228,7 @@
 .fp{
     font-size: 14px;
     padding-left: 16px;
+    width: 576px;
 
 }
 
