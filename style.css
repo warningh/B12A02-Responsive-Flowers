@@ -246,5 +246,33 @@
         text-indent: 5px;
     }
 
+    .latest-text{
+        display: grid;
+        grid-template-columns: repeat(1,fr1);
+    }
+
+    .bloom-pic{
+        width: 470px;
+    }
+
+    .bloom-text{
+        margin-top: 0px;
+        margin-left: 60px;
+        font-size: 20px;
+    }
+
+    .latest-photo{
+        display: grid;
+        grid-template-columns: repeat(1,fr1);
+        align-items: center;
+        justify-items: center;
+    }
+    .jabo-text{
+        font-size: 20px;
+    }
+    .jabo{
+                width: 475px;
+    }
+
 
 }
