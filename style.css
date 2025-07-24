@@ -85,19 +85,90 @@
 
 /* flower-store */
 
+.flower-section{
+    display: flex;
+}
+
+.flower-text{
+    margin-top: 280px;
+}
+
 .flower-store{
-    margin-top: 20px;
-    z-index: ;
+    margin-top: 200px;
 }
 
 .store{
     position: relative;
+    width: 540px;
+    height: 580px;
 }
 
 .trust{
     position: absolute;
     margin-left: -180px;
-    margin-top: ;
+    margin-top: -130px;
+}
+
+.listy{
+    list-style: disc;
+}
+
+.fpl{
+    font-size: 50px; 
+    font-weight: bold; 
+    margin-top: 40px;
+}
+
+.fplt{
+    margin-top: -40px;
+}
+
+.latest-all{
+    margin-top: 70px;
+}
+
+.latest-text{
+    align-items: center;
+    text-align: center;
+}
+
+.two-pic{
+    margin-top: 18px;
+}
+
+.bloom-text{
+    position: absolute;
+    color: white;
+    padding-left:90px;
+    padding-top:60px;
+}
+
+
+
+.bloom-pic{
+    border-radius: 14px;
+}
+
+.zabo-text{
+        position: absolute;
+    color: white;
+    padding-left:150px;
+    padding-top:80px;
+    font-size: 40px;
+}
+
+.zabo{
+    border-radius: 14px;
+    width:740px ;
+    height: 410px;
+}
+
+.latest-photo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    /* gap: 28px; */
+    /* max-width: fit-content; */
 }
 
 
@@ -147,6 +218,32 @@
 
     .card img{
         width: 100%;
+    }
+
+    .flower-section{
+        display: grid;
+        margin-top: -140px;
+    }
+
+    .store{
+        max-width: 100%;
+    }
+
+    .trust{
+        display: none;
+    }
+
+    .flower-text{
+        margin-top: -40px;
+    }
+
+    .fpl{
+        display: flex;
+        font-size: 24px;
+    }
+
+    .fplt{
+        text-indent: 5px;
     }
 
 
