@@ -1,78 +1,102 @@
+
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: normal;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
 }
 
-/* all */
+/* all apply */
+
+.side{
+        padding: 0 50px;
+
+}
 
 .pr{
-    color: rgb(164, 161, 161);
+    color:rgba(0, 0, 0, 0.5) ;
 }
 
 .or{
-    color: #E95A08;
+    color: rgba(233, 90, 8, 1);
 }
+.org{
+    background-color: rgba(233, 90, 8, 1);
+}
+
+
 /* navber */
 
-.navbar{
+.navber{
     display: flex;
     justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
     align-items: center;
-    margin-top: 30px;
-    width: 0 1140px;
 }
 
-.nav-item{
+.nav-list{
     display: flex;
 }
 
-.nav-item , li{
-    gap: 30px;
-    list-style: none;
-}
-
-.li,a{
+.nav-list,li,a{
     text-decoration: none;
+    list-style: none;
+    margin-left: 10px;
 }
 
 .li,a:hover{
-    background-color: rgb(232, 73, 15);
-    color: rgb(255, 255, 255);
+    color:white ;
+    background-color: orange;
     padding: 8px;
-    font-size: 18px;
-    border-radius: 8px;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
-/* always fresh */
+
+/* always fresh flower */
+
+.fresh{
+    display: flex;
+    margin-top: 60px;
+}
 
 .always{
-    display: flex;
-    margin-top: 5px;
+    font-size: 65px;
 }
 
-/* our-plants */
 
-.our-plants{
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+
+
+
+@media screen and (max-width:576px){
+    .navber{
+        padding:0 16px;
+    }
+
+    .nav-item{
+        display:none;
+    }
+
+    .flower img{
+        max-width: 576px;
+        margin-top: -20px;
+    }
+
+    .always{
+        font-size: 24px;
+        margin-top: 28px;
+        padding-left: 16px;
+    }
+
+.fp{
+    font-size: 14px;
+    padding-left: 16px;
+
 }
+    .fresh{
+        flex-direction: column-reverse;
+    }
 
-/* .card{
-    text-align: center;
-} */
 
-.adc{
-    background-color: rgb(232, 73, 15) ;
-    color: aliceblue;
-    border: none;
-    border-radius: 5px;
-    padding: 8px;
-    width: ;
 }
