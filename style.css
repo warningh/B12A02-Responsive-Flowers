@@ -1,6 +1,6 @@
 
-.open-sans-normal {
-  font-family: "Open Sans", sans-serif;
+.noto-serif-normal {
+  font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
@@ -141,20 +141,23 @@
     color: white;
     padding-left:90px;
     padding-top:60px;
+    z-index: 1;
 }
 
 
 
 .bloom-pic{
     border-radius: 14px;
+    filter:brightness(60%) ;
 }
 
 .zabo-text{
-        position: absolute;
+    position: absolute;
     color: white;
     padding-left:150px;
     padding-top:80px;
     font-size: 40px;
+    z-index: 1;
 }
 
 .zabo{
@@ -171,12 +174,40 @@
     /* max-width: fit-content; */
 }
 
+.jaw{
+    border-radius: 14px;
+    filter: brightness(70%);
+}
+
+/* Join the colorful Bunch */
+
+.join-title{
+
+}
+
+.bar{
+    position: absolute;
+}
+
+.box{
+    width: 800px;
+    height: 50px;
+}
+
+.button{
+    padding-right: -500px;
+    height: 50px;
+    position: absolute;
+
+}
+
 
 
 
 @media screen and (max-width:576px){
     .navber{
         padding:0 16px;
+        width: 476px;
     }
 
     .nav-item{
@@ -209,7 +240,7 @@
         grid-template-columns: repeat(auto-fit ,minmax(160px,2fr));
         gap: 20px;
         height:0 auto;
-        max-width: 100%;
+         width: 476px;
     }
 
     .card, .btn{
@@ -223,10 +254,11 @@
     .flower-section{
         display: grid;
         margin-top: -140px;
+        width: 476px;
     }
 
     .store{
-        max-width: 100%;
+         width: 476px;
     }
 
     .trust{
@@ -235,6 +267,7 @@
 
     .flower-text{
         margin-top: -40px;
+         width: 476px;
     }
 
     .fpl{
@@ -244,6 +277,10 @@
 
     .fplt{
         text-indent: 5px;
+    }
+
+    .latest-all{
+        width: 576px;
     }
 
     .latest-text{
@@ -271,7 +308,7 @@
         font-size: 20px;
     }
     .jabo{
-                width: 475px;
+                width: 476px;
     }
 
 
