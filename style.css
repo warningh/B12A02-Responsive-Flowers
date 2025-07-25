@@ -6,6 +6,8 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 /* all apply */
@@ -14,7 +16,7 @@
     box-sizing: border-box;
 } */
 
-.side{
+.ide{
         padding: 0 50px;
 
 }
@@ -37,8 +39,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-        padding-left:  50px;
-    padding-right: 70px;
+        /* padding-left:  50px;
+    padding-right: 70px; */
 }
 
 .nav-list{
@@ -65,8 +67,8 @@
 .fresh{
     display: flex;
     margin-top: 60px;
-    padding-left:  70px;
-    margin-right: 70px;
+    /* padding-left:  70px; */
+    /* margin-right: 70px; */
     justify-content: space-between;
 }
 
@@ -90,8 +92,8 @@
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
-        padding-left:  50px;
-    padding-right: 70px;
+        /* padding-left:  50px;
+    padding-right: 70px; */
 
 }
 
@@ -99,8 +101,8 @@
 
 .flower-section{
     display: flex;
-        padding-left:  50px;
-    padding-right: 70px;
+        /* padding-left:  50px;
+    padding-right: 70px; */
 }
 
 .flower-text{
@@ -139,8 +141,8 @@
 
 .latest-all{
     margin-top: 70px;
-    padding-left:  50px;
-    padding-right: 100px;
+    /* padding-left:  50px;
+    padding-right: 100px; */
 }
 
 .latest-text{
@@ -184,6 +186,7 @@
 
 .latest-photo{
     display: flex;
+    justify-content: space-between;
     margin-top: 70px;
     gap: 20px;
     /* gap: 28px; */
@@ -264,6 +267,7 @@
     width: 1250px;
     height: 533px;
     margin-top: 50px;
+    margin-left: -60px;
 }
 
 .footer{
@@ -297,9 +301,9 @@
 
 @media screen and (max-width:576px){
     .navber{
-        padding:0 16px;
-        width: 476px;
-                padding-left: 70px;
+        /* padding:0 16px; */
+        width: 576px;
+                /* padding-left: 70px; */
 
     }
 
@@ -308,7 +312,7 @@
     }
 
     .flower {
-        width: 480px;
+        width: 576px;
         margin-top: -20px;
     }
 
@@ -325,14 +329,17 @@
 
     .fresh{
         flex-direction: column-reverse;
-                padding-left: 70px;
+                /* padding-left: 70px; */
 
     }
 
     .ourp{
         text-align: center;
-                padding-left: 70px;
-                justify-content: center;
+                /* padding-left: 70px; */
+                /* justify-content: center; */
+                align-items: center;
+                /* border: 2px solid black; */
+                width: 550px;
 
     }
 
@@ -342,7 +349,7 @@
         gap: 20px;
         height:0 auto;
         width: 476px;
-        padding-left: 70px;
+        /* padding-left: 70px; */
 
     }
 
@@ -358,11 +365,11 @@
         display: grid;
         margin-top: -140px;
         width: 476px;
-        padding-left: 70px;
+        /* padding-left: 70px; */
     }
 
     .store{
-         width: 476px;
+         width: 550px;
     }
 
     .trust{
@@ -390,16 +397,34 @@
     .latest-text{
         display: grid;
         grid-template-columns: repeat(1,fr1);
+        /* margin-left: 30px; */
     }
 
     .bloom-pic{
         width: 470px;
+        margin-left: ;
+    }
+
+    .jamela{
+        margin-left: 4rem;
+    }
+
+    .blt{
+        font-size: 20px;
+        /* width: 5rem;
+        border: #e95a08 2px solid; */
+        padding-right: 200px;
+        /* margin-left: 900px; */
     }
 
     .bloom-text{
         margin-top: 0px;
         margin-left: 60px;
         font-size: 20px;
+                width: 200px;
+        /* padding-right: 200px; */
+        padding-left: 90px;
+
     }
 
     .latest-photo{
@@ -410,14 +435,22 @@
     }
     .jabo-text{
         font-size: 20px;
+        /* border: #e95a08 2px solid; */
+        width: 300px;
+        /* padding-right: 200px; */
+        padding-left: 120px;
+        
     }
     .jabo{
                 width: 476px;
+            margin-left: 1.5rem;
     }
 
     .jtcb{
-        width: 100%;
+        /* width: 100%; */
     }
+
+    
 
     .join-box{
         
@@ -431,15 +464,23 @@
         font-size: 20px;
         /* justify-content: center;
         align-items: center; */
-        margin-left: 40%;
+        margin-left: 30%;
         margin-top: 100px;
+        width: 15rem;
+                padding-top: 30px;
 
+    }
+
+    .sor{
+        margin-left: 30px;
     }
 
     .bar{
         margin-left: 30%;
         margin-bottom: 20px;
         margin-top: 150px;
+        padding-top: 30px;
+
     }
 
     .box{
@@ -455,7 +496,7 @@
     
 
     .lbg{
-        width: 576px;
+        width: 43rem;
         height: 275px;
     }
 
