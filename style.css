@@ -255,8 +255,8 @@
         display:none;
     }
 
-    .flower img{
-        width: 576px;
+    .flower {
+        width: 480px;
         margin-top: -20px;
     }
 
@@ -280,6 +280,7 @@
     .ourp{
         text-align: center;
                 padding-left: 70px;
+                justify-content: center;
 
     }
 
