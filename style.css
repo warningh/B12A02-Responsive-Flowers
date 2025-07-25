@@ -10,6 +10,10 @@
 
 /* all apply */
 
+*{
+    box-sizing: border-box;
+}
+
 .side{
         padding: 0 50px;
 
@@ -194,12 +198,34 @@
 
 /* Join the colorful Bunch */
 
-.join-title{
+.bar input[type=text]{
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    border: 1px solid gray;
+    float: left;
+    background: #f1f1f1;
+}
 
+.join-title{
+    position: absolute;
+    margin-left: 20rem;
+    font-size: 3rem;
+    margin-top: 10rem;
+    color: white;
+        justify-content: center;
+    align-items: center;
+    
 }
 
 .bar{
     position: absolute;
+    width: 50%;
+    margin-left: 13rem;
+    margin-top: 16rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .box{
@@ -207,11 +233,32 @@
     height: 50px;
 }
 
-.button{
-    padding-right: -500px;
+.bar button{
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background-color: #e95a08;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    margin-top: -60px;
+    margin-right: -100px;
+    margin-bottom: -60px;
     height: 50px;
-    position: absolute;
+}
 
+.bar button:hover{
+    background: rgb(211, 156, 47);
+}
+
+/* .join-box{
+} */
+
+.lbg img{
+    width:100% ;
+    margin-top: 50px;
 }
 
 .footer{
@@ -361,6 +408,49 @@
     }
     .jabo{
                 width: 476px;
+    }
+
+    .jtcb{
+        width: 100%;
+    }
+
+    .join-box{
+        margin-left: ;
+        /* margin-left: -30%; */
+        /* margin-top: 40px; */
+        /* justify-content: center;
+        align-items: center; */
+    }
+
+    .join-title{
+        font-size: 20px;
+        /* justify-content: center;
+        align-items: center; */
+        margin-left: 40%;
+        margin-top: 8rem;
+    }
+
+    .bar{
+        margin-left: 20%;
+        margin-bottom: 20px;
+        margin-top: 11rem;
+    }
+
+    .box{
+        width: 200px;
+        height: 50px;
+    }
+
+    .sub button{
+        width: 500px;
+        /* width: 100px; */
+        /* height: 50px; */
+    }
+    
+
+    .lbg{
+        width: 576px;
+        height: 275px;
     }
 
     .footer{
