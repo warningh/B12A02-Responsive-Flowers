@@ -10,9 +10,9 @@
 
 /* all apply */
 
-*{
+/* *{
     box-sizing: border-box;
-}
+} */
 
 .side{
         padding: 0 50px;
@@ -246,7 +246,7 @@
     margin-top: -60px;
     margin-right: -100px;
     margin-bottom: -60px;
-    height: 50px;
+    height: 70px;
 }
 
 .bar button:hover{
@@ -441,7 +441,7 @@
         height: 50px;
     }
 
-    .sub button{
+    .sub{
         width: 500px;
         /* width: 100px; */
         /* height: 50px; */
