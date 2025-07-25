@@ -207,6 +207,10 @@
     background: #f1f1f1;
 }
 
+.join-box{
+    margin: 50px;
+}
+
 .join-title{
     position: absolute;
     margin-left: 20rem;
@@ -256,8 +260,8 @@
 /* .join-box{
 } */
 
-.lbg img{
-    width: 1255px;
+.lbg{
+    width: 1250px;
     height: 533px;
     margin-top: 50px;
 }
@@ -451,7 +455,7 @@
     
 
     .lbg{
-        width: 720px;
+        width: 576px;
         height: 275px;
     }
 
