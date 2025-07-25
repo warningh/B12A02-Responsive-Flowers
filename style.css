@@ -511,8 +511,14 @@
         grid-template-columns: repeat(1,fr1);
     }
 
-    .icons{
+    .f2{
+        margin-top: -60px;
+    }
 
+    .icons{
+        display: flex;
+        margin-top: 50px;
+        gap: 10px;
     }
 
 
